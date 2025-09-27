@@ -41,4 +41,7 @@ public class UserApi {
         return new ResponseEntity<>(userServices.loginUser(userDTO), HttpStatus.OK);
     }
 
+
+    // @Want to achieve delte eaccoutn and update accoutn using email and id
+
 }

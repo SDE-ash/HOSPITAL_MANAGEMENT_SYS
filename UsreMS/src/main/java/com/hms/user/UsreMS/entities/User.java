@@ -1,5 +1,7 @@
 package com.hms.user.UsreMS.entities;
 
+import com.hms.user.UsreMS.Roles;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -32,6 +34,6 @@ public class User {
 
     private String password;
 
-    private String role;
+    private Roles role;
 
 }
